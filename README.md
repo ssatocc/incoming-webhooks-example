@@ -7,7 +7,19 @@ Example of using Incoming Webhook
 cp -p .env.example .env
 ```
 
+```bash
+pipenv shell
+```
+
+```bash
+pipenv install --dev
+```
+
 ## Send a Message
+
+```bash
+python send.py
+```
 
 ```bash
 bash send.sh
